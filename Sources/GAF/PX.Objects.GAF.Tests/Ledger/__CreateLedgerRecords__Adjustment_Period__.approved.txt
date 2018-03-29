@@ -1,0 +1,45 @@
+﻿ledgerRecords[0] = 
+{
+    TransactionDate: 01.03.2015 0:00:00
+    AccountID: "10"
+    AccountName: "asset account desc"
+    TransactionDescription: "OPENING BALANCE"
+    Name: null
+    TransactionID: null
+    SourceDocumentID: null
+    SourceType: null
+    DebitAmount: 0
+    CreditAmount: 0
+    BalanceAmount: 0
+}
+
+ledgerRecords[1] = 
+{
+    TransactionDate: 01.01.2015 0:00:00
+    AccountID: "10"
+    AccountName: "asset account desc"
+    TransactionDescription: "TranDesc1"
+    Name: "Supply Co"
+    TransactionID: "BN0001"
+    SourceDocumentID: "REF0001"
+    SourceType: "AP"
+    DebitAmount: 5
+    CreditAmount: 1
+    BalanceAmount: 4
+}
+
+ledgerRecords[2] = 
+{
+    TransactionDate: 02.01.2015 0:00:00
+    AccountID: "10"
+    AccountName: "asset account desc"
+    TransactionDescription: "TranDesc2"
+    Name: "Personnel Express"
+    TransactionID: "BN0002"
+    SourceDocumentID: "REF0002"
+    SourceType: "AR"
+    DebitAmount: 6
+    CreditAmount: 3
+    BalanceAmount: 7
+}
+

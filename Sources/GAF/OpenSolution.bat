@@ -1,0 +1,1 @@
+"c:\elativus\gitRepos\5_3X\WebSites\Extensions\TaxesGAFExport\Sources\TaxesGAFExport\TaxesGAFExport.sln"

@@ -1,0 +1,90 @@
+﻿ledgerRecords[0] = 
+{
+    TransactionDate: 01.03.2015 0:00:00
+    AccountID: "10"
+    AccountName: "asset account desc"
+    TransactionDescription: "OPENING BALANCE"
+    Name: null
+    TransactionID: null
+    SourceDocumentID: null
+    SourceType: null
+    DebitAmount: 0
+    CreditAmount: 0
+    BalanceAmount: 4
+}
+
+ledgerRecords[1] = 
+{
+    TransactionDate: 01.01.2015 0:00:00
+    AccountID: "10"
+    AccountName: "asset account desc"
+    TransactionDescription: "TranDesc1"
+    Name: "Supply Co"
+    TransactionID: "BN0001"
+    SourceDocumentID: "REF0001"
+    SourceType: "AP"
+    DebitAmount: 5
+    CreditAmount: 1
+    BalanceAmount: 8
+}
+
+ledgerRecords[2] = 
+{
+    TransactionDate: 02.01.2015 0:00:00
+    AccountID: "10"
+    AccountName: "asset account desc"
+    TransactionDescription: "TranDesc2"
+    Name: "Personnel Express"
+    TransactionID: "BN0002"
+    SourceDocumentID: "REF0002"
+    SourceType: "AR"
+    DebitAmount: 6
+    CreditAmount: 3
+    BalanceAmount: 11
+}
+
+ledgerRecords[3] = 
+{
+    TransactionDate: 01.03.2015 0:00:00
+    AccountID: "20"
+    AccountName: "liablity account desc"
+    TransactionDescription: "OPENING BALANCE"
+    Name: null
+    TransactionID: null
+    SourceDocumentID: null
+    SourceType: null
+    DebitAmount: 0
+    CreditAmount: 0
+    BalanceAmount: -8
+}
+
+ledgerRecords[4] = 
+{
+    TransactionDate: 03.01.2015 0:00:00
+    AccountID: "20"
+    AccountName: "liablity account desc"
+    TransactionDescription: "TranDesc3"
+    Name: "Personnel Express"
+    TransactionID: "BN0003"
+    SourceDocumentID: "REF0003"
+    SourceType: "SO"
+    DebitAmount: 9
+    CreditAmount: 15
+    BalanceAmount: -14
+}
+
+ledgerRecords[5] = 
+{
+    TransactionDate: 04.01.2015 0:00:00
+    AccountID: "20"
+    AccountName: "liablity account desc"
+    TransactionDescription: "TranDesc4"
+    Name: "Supply Co"
+    TransactionID: "BN0004"
+    SourceDocumentID: "REF0004"
+    SourceType: "PO"
+    DebitAmount: 20
+    CreditAmount: 7
+    BalanceAmount: -1
+}
+

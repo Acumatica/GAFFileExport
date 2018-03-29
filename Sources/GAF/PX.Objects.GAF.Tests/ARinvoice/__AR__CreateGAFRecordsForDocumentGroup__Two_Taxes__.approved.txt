@@ -1,0 +1,136 @@
+﻿supplyRecords[0] = 
+{
+    CustomerName: "Personnel Express"
+    CustomerBRN: "BRN C-27"
+    Country: "GERMANY"
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 1
+    ProductDescription: "tyre sale 1"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "EUR"
+    Amount: 100
+    GSTAmount: 7
+    ForeignCurrencyAmount: 200
+    ForeignCurrencyAmountGST: 14
+}
+
+supplyRecords[1] = 
+{
+    CustomerName: "Personnel Express"
+    CustomerBRN: "BRN C-27"
+    Country: "GERMANY"
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 1
+    ProductDescription: "tyre sale 1"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 100
+    GSTAmount: 10
+    ForeignCurrencyAmount: 200
+    ForeignCurrencyAmountGST: 20
+}
+
+supplyRecords[2] = 
+{
+    CustomerName: "Personnel Express"
+    CustomerBRN: "BRN C-27"
+    Country: "GERMANY"
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 2
+    ProductDescription: "oil sale 1"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "EUR"
+    Amount: 300
+    GSTAmount: 21
+    ForeignCurrencyAmount: 600
+    ForeignCurrencyAmountGST: 42
+}
+
+supplyRecords[3] = 
+{
+    CustomerName: "Personnel Express"
+    CustomerBRN: "BRN C-27"
+    Country: "GERMANY"
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 2
+    ProductDescription: "oil sale 1"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 300
+    GSTAmount: 30
+    ForeignCurrencyAmount: 600
+    ForeignCurrencyAmountGST: 60
+}
+
+supplyRecords[4] = 
+{
+    CustomerName: "Microchip Restaurant"
+    CustomerBRN: null
+    Country: "UNITED KINGDOM"
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 1
+    ProductDescription: "tyre sale 2"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "GBP"
+    Amount: 200
+    GSTAmount: 14
+    ForeignCurrencyAmount: 400
+    ForeignCurrencyAmountGST: 28
+}
+
+supplyRecords[5] = 
+{
+    CustomerName: "Microchip Restaurant"
+    CustomerBRN: null
+    Country: "UNITED KINGDOM"
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 1
+    ProductDescription: "tyre sale 2"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "GBP"
+    Amount: 200
+    GSTAmount: 20
+    ForeignCurrencyAmount: 400
+    ForeignCurrencyAmountGST: 40
+}
+
+supplyRecords[6] = 
+{
+    CustomerName: "Microchip Restaurant"
+    CustomerBRN: null
+    Country: "UNITED KINGDOM"
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 2
+    ProductDescription: "oil sale 2"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "GBP"
+    Amount: 500
+    GSTAmount: 35
+    ForeignCurrencyAmount: 700
+    ForeignCurrencyAmountGST: 49
+}
+
+supplyRecords[7] = 
+{
+    CustomerName: "Microchip Restaurant"
+    CustomerBRN: null
+    Country: "UNITED KINGDOM"
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 2
+    ProductDescription: "oil sale 2"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "GBP"
+    Amount: 500
+    GSTAmount: 50
+    ForeignCurrencyAmount: 700
+    ForeignCurrencyAmountGST: 70
+}
+

@@ -1,0 +1,68 @@
+﻿purchaseRecords[0] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: "tax bill desc 1"
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 1
+    ProductDescription: "bill desc 1"
+    TaxCode: "VATDIR"
+    ForeignCurrencyCode: "EUR"
+    Amount: 10
+    GSTAmount: 1
+    ForeignCurrencyAmount: 20
+    ForeignCurrencyAmountGST: 3
+}
+
+purchaseRecords[1] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: "tax bill desc 1"
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 2
+    ProductDescription: "bill desc 1"
+    TaxCode: "VATDIR2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 15
+    GSTAmount: 2
+    ForeignCurrencyAmount: 25
+    ForeignCurrencyAmountGST: 5
+}
+
+purchaseRecords[2] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: "tax bill desc 2"
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 1
+    ProductDescription: "bill desc 2"
+    TaxCode: "VATDIR"
+    ForeignCurrencyCode: "GBP"
+    Amount: 14
+    GSTAmount: 3
+    ForeignCurrencyAmount: 23
+    ForeignCurrencyAmountGST: 6
+}
+
+purchaseRecords[3] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: "tax bill desc 2"
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 2
+    ProductDescription: "bill desc 2"
+    TaxCode: "VATDIR2"
+    ForeignCurrencyCode: "GBP"
+    Amount: 16
+    GSTAmount: 4
+    ForeignCurrencyAmount: 27
+    ForeignCurrencyAmountGST: 8
+}
+

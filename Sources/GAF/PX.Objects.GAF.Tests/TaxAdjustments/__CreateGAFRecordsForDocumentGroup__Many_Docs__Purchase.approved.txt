@@ -1,0 +1,102 @@
+﻿records[0] = 
+{
+    SupplierName: null
+    SupplierBRN: null
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 1
+    ProductDescription: "doc1 desc"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "GBP"
+    Amount: 100
+    GSTAmount: 7
+    ForeignCurrencyAmount: 200
+    ForeignCurrencyAmountGST: 14
+}
+
+records[1] = 
+{
+    SupplierName: null
+    SupplierBRN: null
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 2
+    ProductDescription: "doc1 desc"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "GBP"
+    Amount: 150
+    GSTAmount: 10.5
+    ForeignCurrencyAmount: 300
+    ForeignCurrencyAmountGST: 21
+}
+
+records[2] = 
+{
+    SupplierName: null
+    SupplierBRN: null
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 3
+    ProductDescription: "doc1 desc"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "GBP"
+    Amount: 110
+    GSTAmount: 11
+    ForeignCurrencyAmount: 220
+    ForeignCurrencyAmountGST: 22
+}
+
+records[3] = 
+{
+    SupplierName: null
+    SupplierBRN: null
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 1
+    ProductDescription: "doc2 desc"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "EUR"
+    Amount: 400
+    GSTAmount: 28
+    ForeignCurrencyAmount: 800
+    ForeignCurrencyAmountGST: 56
+}
+
+records[4] = 
+{
+    SupplierName: null
+    SupplierBRN: null
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 2
+    ProductDescription: "doc2 desc"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 600
+    GSTAmount: 42
+    ForeignCurrencyAmount: 1200
+    ForeignCurrencyAmountGST: 84
+}
+
+records[5] = 
+{
+    SupplierName: null
+    SupplierBRN: null
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 3
+    ProductDescription: "doc2 desc"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 330
+    GSTAmount: 33
+    ForeignCurrencyAmount: 660
+    ForeignCurrencyAmountGST: 66
+}
+

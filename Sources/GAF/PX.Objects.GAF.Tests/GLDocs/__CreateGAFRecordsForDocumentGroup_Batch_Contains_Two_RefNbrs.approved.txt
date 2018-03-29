@@ -1,0 +1,34 @@
+﻿supplyRecords[0] = 
+{
+    CustomerName: null
+    CustomerBRN: null
+    Country: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "0004123"
+    LineNumber: 1
+    ProductDescription: "doc desc 1"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "EUR"
+    Amount: 100
+    GSTAmount: 7
+    ForeignCurrencyAmount: 200
+    ForeignCurrencyAmountGST: 14
+}
+
+supplyRecords[1] = 
+{
+    CustomerName: null
+    CustomerBRN: null
+    Country: null
+    InvoiceDate: 02.03.2015 0:00:00
+    InvoiceNumber: "0004124"
+    LineNumber: 1
+    ProductDescription: "doc desc 1"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "EUR"
+    Amount: 300
+    GSTAmount: 21
+    ForeignCurrencyAmount: 600
+    ForeignCurrencyAmountGST: 42
+}
+

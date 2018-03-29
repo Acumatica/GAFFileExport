@@ -1,0 +1,136 @@
+﻿purchaseRecords[0] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 1
+    ProductDescription: "tyre purchase 1"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "EUR"
+    Amount: 100
+    GSTAmount: 7
+    ForeignCurrencyAmount: 200
+    ForeignCurrencyAmountGST: 14
+}
+
+purchaseRecords[1] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 1
+    ProductDescription: "tyre purchase 1"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 100
+    GSTAmount: 10
+    ForeignCurrencyAmount: 200
+    ForeignCurrencyAmountGST: 20
+}
+
+purchaseRecords[2] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 2
+    ProductDescription: "oil purchase 1"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "EUR"
+    Amount: 300
+    GSTAmount: 21
+    ForeignCurrencyAmount: 600
+    ForeignCurrencyAmountGST: 42
+}
+
+purchaseRecords[3] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "DOC001"
+    LineNumber: 2
+    ProductDescription: "oil purchase 1"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 300
+    GSTAmount: 30
+    ForeignCurrencyAmount: 600
+    ForeignCurrencyAmountGST: 60
+}
+
+purchaseRecords[4] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 1
+    ProductDescription: "tyre purchase 2"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "GBP"
+    Amount: 200
+    GSTAmount: 14
+    ForeignCurrencyAmount: 400
+    ForeignCurrencyAmountGST: 28
+}
+
+purchaseRecords[5] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 1
+    ProductDescription: "tyre purchase 2"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "GBP"
+    Amount: 200
+    GSTAmount: 20
+    ForeignCurrencyAmount: 400
+    ForeignCurrencyAmountGST: 40
+}
+
+purchaseRecords[6] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 2
+    ProductDescription: "oil purchase 2"
+    TaxCode: "VAT"
+    ForeignCurrencyCode: "GBP"
+    Amount: 500
+    GSTAmount: 35
+    ForeignCurrencyAmount: 700
+    ForeignCurrencyAmountGST: 49
+}
+
+purchaseRecords[7] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "DOC002"
+    LineNumber: 2
+    ProductDescription: "oil purchase 2"
+    TaxCode: "VAT2"
+    ForeignCurrencyCode: "GBP"
+    Amount: 500
+    GSTAmount: 50
+    ForeignCurrencyAmount: 700
+    ForeignCurrencyAmountGST: 70
+}
+

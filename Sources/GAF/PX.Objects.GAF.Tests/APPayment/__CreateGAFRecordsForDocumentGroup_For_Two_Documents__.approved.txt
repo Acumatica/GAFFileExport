@@ -1,0 +1,68 @@
+﻿purchaseRecords[0] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "CHECK1"
+    LineNumber: 1
+    ProductDescription: "bill 1 desc"
+    TaxCode: "WITH"
+    ForeignCurrencyCode: "EUR"
+    Amount: 10
+    GSTAmount: 1
+    ForeignCurrencyAmount: 20
+    ForeignCurrencyAmountGST: 3
+}
+
+purchaseRecords[1] = 
+{
+    SupplierName: "Supply Co"
+    SupplierBRN: "BRN V-7"
+    ImportDeclarationNumber: null
+    InvoiceDate: 01.03.2015 0:00:00
+    InvoiceNumber: "CHECK1"
+    LineNumber: 1
+    ProductDescription: "bill 1 desc"
+    TaxCode: "WITH2"
+    ForeignCurrencyCode: "EUR"
+    Amount: 15
+    GSTAmount: 2
+    ForeignCurrencyAmount: 25
+    ForeignCurrencyAmountGST: 5
+}
+
+purchaseRecords[2] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "CHECK2"
+    LineNumber: 1
+    ProductDescription: "bill 2 desc"
+    TaxCode: "WITH"
+    ForeignCurrencyCode: "GBP"
+    Amount: 11
+    GSTAmount: 1.1
+    ForeignCurrencyAmount: 21
+    ForeignCurrencyAmountGST: 3.1
+}
+
+purchaseRecords[3] = 
+{
+    SupplierName: "Tullow Oil"
+    SupplierBRN: "BRN V-2"
+    ImportDeclarationNumber: null
+    InvoiceDate: 05.03.2015 0:00:00
+    InvoiceNumber: "CHECK2"
+    LineNumber: 1
+    ProductDescription: "bill 2 desc"
+    TaxCode: "WITH2"
+    ForeignCurrencyCode: "GBP"
+    Amount: 16
+    GSTAmount: 2.1
+    ForeignCurrencyAmount: 26
+    ForeignCurrencyAmountGST: 5.1
+}
+

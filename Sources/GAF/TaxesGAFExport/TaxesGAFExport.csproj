@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TaxesGAFExport</RootNamespace>
+    <AssemblyName>TaxesGAFExport</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PX.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Pure\Site\Bin\PX.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PX.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Pure\Site\Bin\PX.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PX.Objects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Pure\Site\Bin\PX.Objects.DLL</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customized\DAC\BranchBAccountExt.cs" />
+    <Compile Include="Customized\DAC\CustomerExt.cs" />
+    <Compile Include="Customized\TXInvoiceEntryExtension.cs" />
+    <Compile Include="Customized\DAC\VendorExt.cs" />
+    <Compile Include="Data\GAFPeriod.cs" />
+    <Compile Include="Data\GAFRecordType.cs" />
+    <Compile Include="Data\GSTAuditFile.cs" />
+    <Compile Include="Data\Records\CompanyRecord.cs" />
+    <Compile Include="Data\Records\DocumentRecordsAggregate.cs" />
+    <Compile Include="Data\Records\FooterRecord.cs" />
+    <Compile Include="Data\Records\GAFRecordBase.cs" />
+    <Compile Include="Data\Records\LedgerRecord.cs" />
+    <Compile Include="Data\Records\PurchaseRecord.cs" />
+    <Compile Include="Data\Records\SupplyRecord.cs" />
+    <Compile Include="CreatorsForDocs\APPaymentGAFRecordsCreator.cs" />
+    <Compile Include="CreatorsForDocs\CADocumentPurchaseGAFRecordsCreator.cs" />
+    <Compile Include="CreatorsForDocs\CADocumentSupplyGAFRecordsCreator.cs" />
+    <Compile Include="CreatorsForDocs\CustomGAFRecordsCreatorBase.cs" />
+    <Compile Include="CreatorsForDocs\DocumentGAFRecordsCreatorBase.cs" />
+    <Compile Include="CreatorsForDocs\GLDocumentGAFRecordsCreator.cs" />
+    <Compile Include="CreatorsForDocs\Invoices\APInvoiceGAFRecordsCreator.cs" />
+    <Compile Include="CreatorsForDocs\Invoices\ARInvoiceFromSOGAFRecordsCreator.cs" />
+    <Compile Include="CreatorsForDocs\Invoices\ARInvoiceGAFRecordsCreator.cs" />
+    <Compile Include="CreatorsForDocs\Invoices\ARInvoiceGAFRecordsCreatorBase.cs" />
+    <Compile Include="CreatorsForDocs\Invoices\DocumentWithTransGAFRecordsCreatorBase.cs" />
+    <Compile Include="CreatorsForDocs\Invoices\IDocumentGafRecordCreator.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderBase.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderByDocumentTranBase.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderByGLTranAndTaxTran.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderByRegister.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderByRegisterAndTaxTranBase.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderByTaxAdjustmentTaxTran.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderByTaxTranBase.cs" />
+    <Compile Include="CreatorsForDocs\Builders\GafRecordBuilderByTaxTranCalcedOnDocAmt.cs" />
+    <Compile Include="CreatorsForDocs\Builders\IGafRecordBuilderByContragentData.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Purchase\PurchaseRecordBuilderByAPInvoiceTaxTranForTaxCalcedOnDocumentAmt.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Purchase\PurchaseRecordBuilderByCADocument.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Purchase\PurchaseRecordBuilderByCADocumentTaxTranForTaxCalcedOnDocumentAmt.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Purchase\PurchaseRecordBuilderByInvoiceTran.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Purchase\PurchaseRecordBuilderByTaxTranFromTaxDocument.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Purchase\PurchaseRecordBuilderByTaxTranOfAPPayment.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Purchase\PurchaseRecordBuilderByVendorData.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\CADocuments\SupplyRecordBuilderByCADocument.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\CADocuments\SupplyRecordBuilderByCADocumentTaxTranForTaxCalcedOnDocumentAmt.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\CountryBuilding\SupplyRecordCountryBuilderBase.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\CountryBuilding\SupplyRecordCountryBuilderForARInvoice.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\CountryBuilding\SupplyRecordCountryBuilderForSOInvoice.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\SupplyRecordBuilderByARInvoice.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\SupplyRecordBuilderByARInvoiceTaxTranForTaxCalcedOnDocumentAmt.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\SupplyRecordBuilderByCustomerData.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\SupplyRecordBuilderByInvoiceBase.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\SupplyRecordBuilderBySOInvoice.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\Invoices\SupplyRecordBuilderBySOInvoiceTaxTranForTaxCalcedOnDocumentAmt.cs" />
+    <Compile Include="CreatorsForDocs\Builders\Supply\SupplyRecordBuilderByTaxTranForTaxCalcedOnDocumentAmtBase.cs" />
+    <Compile Include="CreatorsForDocs\TaxAdjustmentGAFRecordsCreator.cs" />
+    <Compile Include="GAFDataCreator.cs" />
+    <Compile Include="GAFDocumentProcessingQueue.cs" />
+    <Compile Include="GAFGenerationProcess.cs" />
+    <Compile Include="GAFValidator.cs" />
+    <Compile Include="GLGAFLedgerRecordsCreator.cs" />
+    <Compile Include="Messages.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GafRecordWriter.cs" />
+    <Compile Include="Repositories\GAFRepository.cs" />
+    <Compile Include="Repositories\IGAFRepository.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
